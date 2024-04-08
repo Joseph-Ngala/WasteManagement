@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Waste Management System</title>
+
+    <meta charset="UTF-8">
+
+      <link rel="stylesheet" href="waste.css">
+
+  </head>
+
+  <body>
+
+
+
+<header>
+
+      <h1>Waste Management System</h1>
+
+      <nav>
+
+        <ul>
+
+          <li><a href="waste2.html">Home</a></li>
+
+          <li><a href="waste3.html">About</a></li>
+
+          <li><a href="waste4.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <section>
+
+        <h2>Report Poor Waste Management</h2>
+
+        <form action="report.php" method="post" enctype="multipart/form-data">
+
+          <label for="location">Location:</label>
+
+          <input type="text" id="location" name="location" required>
+
+          <label for="description">Description:</label>
+
+          <textarea id="description" name="description" required></textarea>
+
+          <label for="image/png">Image:</label>
+
+          <input type="file" id="image" name="image">
+
+          <button type="submit" name="report">Report</button>
+
+        </form>
+
+      </section>
+
+ 
+
+    </main>
+
+    <footer>
+
+      <p>&copy; 2023 Waste Management System</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
+
